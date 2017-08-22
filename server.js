@@ -9,6 +9,6 @@ app.get('*', function(req, res) {
   res.render('layout/index');
 });
 
-app.listen(3000, function() {
+app.listen(3300, function() {
   console.log('Server is running...');
 });
